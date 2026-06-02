@@ -207,7 +207,7 @@ export default function LoginPage() {
                         >
                             {loading ? "Signing In..." : "Sign In"}
 
-                            {!loading && <ArrowRight className="h-5 w-5" />}
+                            {!loading && <ArrowRight className="h-5 w-5 rtl:rotate-180" />}
                         </button>
                     </form>
 

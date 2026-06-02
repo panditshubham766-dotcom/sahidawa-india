@@ -14,6 +14,7 @@ const languages = [
     { code: "mr", label: "Marathi", native: "मराठी" },
     { code: "gu", label: "Gujarati", native: "ગુજરાતી" },
     { code: "ur", label: "Urdu", native: "اردو" },
+    { code: "ks", label: "Kashmiri", native: "کٲشُر" },
     { code: "or", label: "Odia", native: "ଓଡ଼ିଆ" },
     { code: "kn", label: "Kannada", native: "ಕನ್ನಡ" },
     { code: "pa", label: "Punjabi", native: "ਪੰਜਾਬੀ" },
@@ -143,7 +144,7 @@ export default function LanguageSwitcher() {
                                 role="option"
                                 aria-selected={isSelected}
                                 onClick={() => switchLanguage(lang.code)}
-                                className={`flex w-full cursor-pointer items-center justify-between px-3 py-1.5 text-left text-sm font-semibold transition-colors sm:px-4 sm:py-2 ${
+                                className={`flex w-full cursor-pointer items-center justify-between px-3 py-1.5 text-start text-sm font-semibold transition-colors sm:px-4 sm:py-2 ${
                                     isSelected || isFocused
                                         ? "dark:text-emerald-450 bg-emerald-50 text-emerald-700 dark:bg-emerald-950/20"
                                         : "text-(--color-text-primary)"

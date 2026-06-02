@@ -29,7 +29,14 @@
         "heroTitle": {
             "prefix": "آپ کی صحت، ",
             "highlight": "تصدیق شدہ اور محفوظ۔"
-        }
+        },
+        "scan_medicine": "[UNTRANSLATED]",
+        "scan_now": "[UNTRANSLATED]",
+        "find_pharmacy": "[UNTRANSLATED]",
+        "report_subtitle": "[UNTRANSLATED]",
+        "our_core_features": "[UNTRANSLATED]",
+        "real_time": "[UNTRANSLATED]",
+        "alerts_description": "[UNTRANSLATED]"
     },
     "Navigation": {
         "how_it_works": "یہ کیسے کام کرتا ہے",

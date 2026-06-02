@@ -83,7 +83,7 @@ export default function FullAlertsLogPage() {
                     href="/"
                     className="inline-flex items-center gap-2 text-sm font-semibold text-(--color-text-secondary) transition-colors hover:text-(--color-text-primary)"
                 >
-                    <ArrowLeft size={16} />
+                    <ArrowLeft size={16} className="rtl:rotate-180" />
                     Back to Home Page
                 </Link>
 
@@ -121,7 +121,7 @@ export default function FullAlertsLogPage() {
             {/* Filters Section */}
             <div className="mb-6 flex flex-col gap-4 md:flex-row">
                 <div className="relative flex-1">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center ps-3">
                         <Search size={18} className="text-(--color-text-muted)" />
                     </div>
                     <input
@@ -129,11 +129,11 @@ export default function FullAlertsLogPage() {
                         placeholder="Search by Brand Name..."
                         value={brandSearch}
                         onChange={(e) => setBrandSearch(e.target.value)}
-                        className="block w-full rounded-xl border border-(--color-border-muted) bg-(--color-surface-muted) p-3 pl-10 text-sm text-(--color-text-primary) placeholder-(--color-text-muted) shadow-sm focus:border-emerald-500 focus:ring-emerald-500 focus:outline-hidden"
+                        className="block w-full rounded-xl border border-(--color-border-muted) bg-(--color-surface-muted) p-3 ps-10 text-sm text-(--color-text-primary) placeholder-(--color-text-muted) shadow-sm focus:border-emerald-500 focus:ring-emerald-500 focus:outline-hidden"
                     />
                 </div>
                 <div className="relative flex-1">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                    <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center ps-3">
                         <Globe size={18} className="text-(--color-text-muted)" />
                     </div>
                     <input
@@ -141,7 +141,7 @@ export default function FullAlertsLogPage() {
                         placeholder="Filter by State/District..."
                         value={regionSearch}
                         onChange={(e) => setRegionSearch(e.target.value)}
-                        className="block w-full rounded-xl border border-(--color-border-muted) bg-(--color-surface-muted) p-3 pl-10 text-sm text-(--color-text-primary) placeholder-(--color-text-muted) shadow-sm focus:border-emerald-500 focus:ring-emerald-500 focus:outline-hidden"
+                        className="block w-full rounded-xl border border-(--color-border-muted) bg-(--color-surface-muted) p-3 ps-10 text-sm text-(--color-text-primary) placeholder-(--color-text-muted) shadow-sm focus:border-emerald-500 focus:ring-emerald-500 focus:outline-hidden"
                     />
                 </div>
             </div>

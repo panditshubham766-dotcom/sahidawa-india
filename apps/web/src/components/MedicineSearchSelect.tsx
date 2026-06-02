@@ -180,7 +180,7 @@ export default function MedicineSearchSelect({
                             }}
                             onFocus={() => setOpen(true)}
                             placeholder={placeholder}
-                            className="w-full rounded-lg border border-slate-300 bg-white py-2 pr-3 pl-9 text-sm outline-none focus:border-emerald-600 focus:ring-1 focus:ring-emerald-600"
+                            className="w-full rounded-lg border border-slate-300 bg-white py-2 pe-3 ps-9 text-sm outline-none focus:border-emerald-600 focus:ring-1 focus:ring-emerald-600"
                             aria-expanded={open}
                             aria-controls={open ? listId : undefined}
                             autoComplete="off"
@@ -216,7 +216,7 @@ export default function MedicineSearchSelect({
                             <button
                                 type="button"
                                 onClick={handleClearHistory}
-                                className="ml-auto rounded text-xs text-slate-400 underline-offset-2 transition-colors duration-150 hover:text-rose-500 hover:underline focus:ring-1 focus:ring-rose-400 focus:outline-none"
+                                className="ms-auto rounded text-xs text-slate-400 underline-offset-2 transition-colors duration-150 hover:text-rose-500 hover:underline focus:ring-1 focus:ring-rose-400 focus:outline-none"
                             >
                                 Clear history
                             </button>
@@ -251,7 +251,7 @@ export default function MedicineSearchSelect({
                             <li key={m.id} role="option" aria-selected={false}>
                                 <button
                                     type="button"
-                                    className="w-full px-3 py-2 text-left text-sm hover:bg-slate-50"
+                                    className="w-full px-3 py-2 text-start text-sm hover:bg-slate-50"
                                     onClick={() => {
                                         onChange(m);
                                         setQuery("");

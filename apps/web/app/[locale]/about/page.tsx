@@ -230,7 +230,7 @@ export default function AboutPage() {
                         <div className="pt-2">
                             <Link href="/contact">
                                 <button className="inline-flex items-center gap-2 rounded-2xl bg-white px-8 py-3.5 text-base font-bold text-emerald-600 shadow-lg transition-all duration-200 hover:scale-105 hover:shadow-xl dark:bg-slate-900 dark:text-emerald-400">
-                                    Contact Us <ChevronRight size={18} />
+                                    Contact Us <ChevronRight size={18} className="rtl:rotate-180" />
                                 </button>
                             </Link>
                         </div>

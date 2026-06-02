@@ -48,7 +48,7 @@ export const PageHeader = ({
                     <ArrowLeft
                         size={24}
                         aria-hidden="true"
-                        className={isDark ? "text-white" : "text-(--color-text-secondary)"}
+                        className={`rtl:rotate-180 ${isDark ? "text-white" : "text-(--color-text-secondary)"}`}
                     />
                     <span className="sr-only">Go back</span>
                 </Link>

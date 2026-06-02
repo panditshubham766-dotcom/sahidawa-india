@@ -101,7 +101,7 @@ export default function VaccineHubPage() {
                         <p className="mt-1 text-sm text-(--color-text-secondary)">
                             Choose a vaccine above to unlock tracking tools:
                         </p>
-                        <ul className="mx-auto mt-4 max-w-sm space-y-2.5 rounded-lg border border-(--color-border-muted) bg-slate-50 p-4 text-left text-sm text-(--color-text-secondary) dark:text-blue-900">
+                        <ul className="mx-auto mt-4 max-w-sm space-y-2.5 rounded-lg border border-(--color-border-muted) bg-slate-50 p-4 text-start text-sm text-(--color-text-secondary) dark:text-blue-900">
                             <li className="flex items-center gap-2">
                                 <span>📅</span> Dynamic projected immunization schedule
                             </li>
@@ -222,7 +222,7 @@ export default function VaccineHubPage() {
                                     <h4 className="flex items-center gap-1.5 text-sm font-bold tracking-wide text-amber-800 uppercase">
                                         <span>🟢</span> Common Post-Effects
                                     </h4>
-                                    <ul className="mt-2.5 ml-5 list-disc space-y-1.5 text-xs font-medium text-amber-950 sm:text-sm">
+                                    <ul className="mt-2.5 ms-5 list-disc space-y-1.5 text-xs font-medium text-amber-950 sm:text-sm">
                                         {vaccine.side_effects.common.map((effect, index) => (
                                             <li key={index}>{effect}</li>
                                         ))}
@@ -233,7 +233,7 @@ export default function VaccineHubPage() {
                                     <h4 className="flex items-center gap-1.5 text-sm font-bold tracking-wide text-rose-800 uppercase">
                                         <span>🛑</span> Severe Reactions
                                     </h4>
-                                    <ul className="mt-2.5 ml-5 list-disc space-y-1.5 text-xs font-medium text-rose-950 sm:text-sm">
+                                    <ul className="mt-2.5 ms-5 list-disc space-y-1.5 text-xs font-medium text-rose-950 sm:text-sm">
                                         {vaccine.side_effects.severe.map((effect, index) => (
                                             <li key={index}>{effect}</li>
                                         ))}

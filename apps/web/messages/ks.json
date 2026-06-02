@@ -1,0 +1,376 @@
+{
+    "Home": {
+        "title": "[UNTRANSLATED]",
+        "subtitle": "[UNTRANSLATED]",
+        "scan_button": "[UNTRANSLATED]",
+        "scan_medicine": "[UNTRANSLATED]",
+        "scan_now": "[UNTRANSLATED]",
+        "scan_subtitle": "[UNTRANSLATED]",
+        "upload_photo": "[UNTRANSLATED]",
+        "upload_subtitle": "[UNTRANSLATED]",
+        "voice_triage": "[UNTRANSLATED]",
+        "voice_subtitle": "[UNTRANSLATED]",
+        "find_pharmacy": "[UNTRANSLATED]",
+        "pharmacy_map": "[UNTRANSLATED]",
+        "pharmacy_subtitle": "[UNTRANSLATED]",
+        "report_fake": "[UNTRANSLATED]",
+        "report_subtitle": "[UNTRANSLATED]",
+        "report_fake_subtitle": "[UNTRANSLATED]",
+        "search_placeholder": "[UNTRANSLATED]",
+        "search_button": "[UNTRANSLATED]",
+        "sign_in": "[UNTRANSLATED]",
+        "get_started": "[UNTRANSLATED]",
+        "open_ai_health_assistant": "[UNTRANSLATED]",
+        "ai_health_assistant": "[UNTRANSLATED]",
+        "ai_chat": "[UNTRANSLATED]",
+        "ai_health_assistant_description": "[UNTRANSLATED]",
+        "chat_now": "[UNTRANSLATED]",
+        "our_core_features": "[UNTRANSLATED]",
+        "live_cdsco_alerts": "[UNTRANSLATED]",
+        "india_region": "[UNTRANSLATED]",
+        "real_time": "[UNTRANSLATED]",
+        "alerts_description": "[UNTRANSLATED]",
+        "alerts_empty_title": "[UNTRANSLATED]",
+        "alerts_empty_description": "[UNTRANSLATED]",
+        "view_full_alert_log": "[UNTRANSLATED]",
+        "heroTitle": {
+            "prefix": "[UNTRANSLATED]",
+            "highlight": "[UNTRANSLATED]"
+        }
+    },
+    "Navigation": {
+        "how_it_works": "[UNTRANSLATED]",
+        "alerts": "[UNTRANSLATED]",
+        "pharmacy_map": "[UNTRANSLATED]",
+        "my_reports": "[UNTRANSLATED]",
+        "home": "[UNTRANSLATED]",
+        "scans": "[UNTRANSLATED]",
+        "map": "[UNTRANSLATED]",
+        "profile": "[UNTRANSLATED]",
+        "language": "[UNTRANSLATED]"
+    },
+    "Scan": {
+        "share": {
+            "button": "[UNTRANSLATED]",
+            "title": "[UNTRANSLATED]",
+            "real_status": "[UNTRANSLATED]",
+            "suspicious_status": "[UNTRANSLATED]",
+            "warning_prefix": "WARNING",
+            "verified_by": "[UNTRANSLATED]",
+            "batch_label": "[UNTRANSLATED]",
+            "manufacturer_label": "[UNTRANSLATED]",
+            "avoid_and_report": "[UNTRANSLATED]",
+            "verify_yourself": "[UNTRANSLATED]",
+            "unknown_medicine": "[UNTRANSLATED]",
+            "unknown_batch": "[UNTRANSLATED]",
+            "unknown_manufacturer": "[UNTRANSLATED]",
+            "shared_success": "[UNTRANSLATED]",
+            "copy_success": "[UNTRANSLATED]",
+            "failure": "[UNTRANSLATED]"
+        }
+    },
+    "BackToTopButton": {
+        "label": "[UNTRANSLATED]"
+    },
+    "VoicePage": {
+        "header_title": "[UNTRANSLATED]",
+        "header_subtitle": "[UNTRANSLATED]",
+        "title": "[UNTRANSLATED]",
+        "subtitle": "[UNTRANSLATED]",
+        "language_selector": "[UNTRANSLATED]",
+        "example_label": "[UNTRANSLATED]",
+        "example_text": "[UNTRANSLATED]",
+        "assistant_label": "[UNTRANSLATED]",
+        "assistant_value": "[UNTRANSLATED]",
+        "skip_to_main_content": "[UNTRANSLATED]",
+        "listening_placeholder": "[UNTRANSLATED]",
+        "listening_status": "[UNTRANSLATED]",
+        "announcements": {
+            "recording_started": "[UNTRANSLATED]",
+            "processing_started": "[UNTRANSLATED]",
+            "results_ready": "[UNTRANSLATED]"
+        },
+        "streaming_connecting_hint": "[UNTRANSLATED]",
+        "streaming_live_hint": "[UNTRANSLATED]",
+        "streaming_fallback_hint": "[UNTRANSLATED]",
+        "animation_toggle_label": "[UNTRANSLATED]",
+        "animation_live_label": "[UNTRANSLATED]",
+        "animation_reduced_motion_label": "[UNTRANSLATED]",
+        "visualizer_label": "[UNTRANSLATED]",
+        "volume_label": "[UNTRANSLATED]",
+        "volume_live_label": "[UNTRANSLATED]",
+        "volume_still_label": "[UNTRANSLATED]",
+        "visualizer_unavailable": "[UNTRANSLATED]",
+        "processing_title": "[UNTRANSLATED]",
+        "processing_subtitle": "[UNTRANSLATED]",
+        "review_title": "[UNTRANSLATED]",
+        "review_message": "[UNTRANSLATED]",
+        "retry_button": "[UNTRANSLATED]",
+        "switch_to_text_button": "[UNTRANSLATED]",
+        "analyse_anyway_button": "[UNTRANSLATED]",
+        "result_heading": "[UNTRANSLATED]",
+        "result_subheading": "[UNTRANSLATED]",
+        "transcript_label": "[UNTRANSLATED]",
+        "confidence_label": "[UNTRANSLATED]",
+        "confidence_values": {
+            "high": "[UNTRANSLATED]",
+            "medium": "[UNTRANSLATED]",
+            "low": "[UNTRANSLATED]",
+            "unavailable": "[UNTRANSLATED]"
+        },
+        "recommendations_label": "[UNTRANSLATED]",
+        "emergency_title": "[UNTRANSLATED]",
+        "emergency_body": "[UNTRANSLATED]",
+        "disclaimer": "[UNTRANSLATED]",
+        "share_button": "[UNTRANSLATED]",
+        "speak_button": "[UNTRANSLATED]",
+        "stop_speaking_button": "[UNTRANSLATED]",
+        "try_again_button": "[UNTRANSLATED]",
+        "tap_to_speak": "[UNTRANSLATED]",
+        "stop_listening_label": "[UNTRANSLATED]",
+        "start_listening_aria": "[UNTRANSLATED]",
+        "stop_listening_aria": "[UNTRANSLATED]",
+        "start_listening_sr": "[UNTRANSLATED]",
+        "stop_listening_sr": "[UNTRANSLATED]",
+        "footer_note": "[UNTRANSLATED]",
+        "share_title": "[UNTRANSLATED]",
+        "share_success": "[UNTRANSLATED]",
+        "copy_success": "[UNTRANSLATED]",
+        "share_failure": "[UNTRANSLATED]",
+        "tts_not_supported": "[UNTRANSLATED]",
+        "tts_fallback_message": "[UNTRANSLATED]",
+        "fallback_summary": "[UNTRANSLATED]",
+        "share_report": {
+            "title": "[UNTRANSLATED]",
+            "timestamp": "[UNTRANSLATED]",
+            "language": "[UNTRANSLATED]",
+            "transcript": "[UNTRANSLATED]",
+            "confidence": "[UNTRANSLATED]",
+            "emergency": "[UNTRANSLATED]",
+            "yes": "[UNTRANSLATED]",
+            "no": "[UNTRANSLATED]",
+            "summary": "[UNTRANSLATED]",
+            "recommendations": "[UNTRANSLATED]",
+            "disclaimer": "[UNTRANSLATED]",
+            "default_recommendation": "[UNTRANSLATED]"
+        },
+        "errors": {
+            "unsupported_title": "[UNTRANSLATED]",
+            "unsupported_message": "[UNTRANSLATED]",
+            "language_not_supported_title": "[UNTRANSLATED]",
+            "language_not_supported_message": "[UNTRANSLATED]",
+            "permission_title": "[UNTRANSLATED]",
+            "permission_message": "[UNTRANSLATED]",
+            "microphone_title": "[UNTRANSLATED]",
+            "microphone_message": "[UNTRANSLATED]",
+            "network_title": "[UNTRANSLATED]",
+            "network_message": "[UNTRANSLATED]",
+            "no_speech_title": "[UNTRANSLATED]",
+            "no_speech_message": "[UNTRANSLATED]",
+            "generic_title": "[UNTRANSLATED]",
+            "generic_message": "[UNTRANSLATED]",
+            "service_unavailable_title": "[UNTRANSLATED]",
+            "service_unavailable_message": "[UNTRANSLATED]",
+            "timeout_title": "[UNTRANSLATED]",
+            "timeout_message": "[UNTRANSLATED]",
+            "api_title": "[UNTRANSLATED]",
+            "api_message": "[UNTRANSLATED]"
+        }
+    },
+    "offline": {
+        "bannerOffline": "[UNTRANSLATED]",
+        "descriptionOffline": "[UNTRANSLATED]",
+        "bannerOnline": "[UNTRANSLATED]",
+        "descriptionOnline": "[UNTRANSLATED]",
+        "dismiss": "[UNTRANSLATED]",
+        "title": "[UNTRANSLATED]",
+        "description": "[UNTRANSLATED]",
+        "subtitle": "[UNTRANSLATED]",
+        "tryAgain": "[UNTRANSLATED]",
+        "goHome": "[UNTRANSLATED]",
+        "footer": "[UNTRANSLATED]",
+        "cachedContent": "[UNTRANSLATED]",
+        "noCache": "[UNTRANSLATED]",
+        "redirecting": "[UNTRANSLATED]",
+        "attempt": "[UNTRANSLATED]",
+        "checkingConnection": "[UNTRANSLATED]",
+        "cachedAvailable": "[UNTRANSLATED]",
+        "cachedVerifications": "[UNTRANSLATED]",
+        "savedPharmacies": "[UNTRANSLATED]",
+        "browsedMedicines": "[UNTRANSLATED]"
+    },
+    "contact": {
+        "badge": "[UNTRANSLATED]",
+        "heroTitle": {
+            "prefix": "[UNTRANSLATED]",
+            "highlight": "[UNTRANSLATED]"
+        },
+        "heroSubtitle": "[UNTRANSLATED]",
+        "cards": {
+            "email": {
+                "title": "[UNTRANSLATED]",
+                "description": "[UNTRANSLATED]"
+            },
+            "discord": {
+                "title": "[UNTRANSLATED]",
+                "description": "[UNTRANSLATED]",
+                "cta": "[UNTRANSLATED]"
+            },
+            "bug": {
+                "title": "[UNTRANSLATED]",
+                "description": "[UNTRANSLATED]",
+                "cta": "[UNTRANSLATED]"
+            },
+            "contribute": {
+                "title": "[UNTRANSLATED]",
+                "description": "[UNTRANSLATED]",
+                "cta": "[UNTRANSLATED]"
+            }
+        },
+        "quickLinks": {
+            "title": "[UNTRANSLATED]",
+            "about": "[UNTRANSLATED]",
+            "privacy": "[UNTRANSLATED]",
+            "faq": "FAQ"
+        },
+        "footer": "[UNTRANSLATED]"
+    },
+    "about": {
+        "badge": "[UNTRANSLATED]",
+        "heroTitle": "[UNTRANSLATED]",
+        "heroSubtitle": "[UNTRANSLATED]",
+        "features": {
+            "free": "[UNTRANSLATED]",
+            "languages": "[UNTRANSLATED]",
+            "license": "[UNTRANSLATED]"
+        },
+        "problemSection": {
+            "title": "[UNTRANSLATED]",
+            "description": "[UNTRANSLATED]"
+        },
+        "cards": {
+            "fakeMedicines": {
+                "title": "[UNTRANSLATED]",
+                "description": "[UNTRANSLATED]"
+            },
+            "ruralHealthcare": {
+                "title": "[UNTRANSLATED]",
+                "description": "[UNTRANSLATED]"
+            },
+            "languageBarrier": {
+                "title": "[UNTRANSLATED]",
+                "description": "[UNTRANSLATED]"
+            }
+        },
+        "realIncident": {
+            "title": "[UNTRANSLATED]",
+            "text": "[UNTRANSLATED]",
+            "highlight": "[UNTRANSLATED]"
+        },
+        "mission": {
+            "title": "[UNTRANSLATED]",
+            "description": "[UNTRANSLATED]"
+        },
+        "vision": {
+            "title": "[UNTRANSLATED]",
+            "description": "[UNTRANSLATED]"
+        },
+        "coreValues": {
+            "title": "[UNTRANSLATED]",
+            "cards": {
+                "openSource": {
+                    "title": "[UNTRANSLATED]",
+                    "description": "[UNTRANSLATED]"
+                },
+                "freeForever": {
+                    "title": "[UNTRANSLATED]",
+                    "description": "[UNTRANSLATED]"
+                },
+                "inclusive": {
+                    "title": "[UNTRANSLATED]",
+                    "description": "[UNTRANSLATED]"
+                },
+                "privacy": {
+                    "title": "[UNTRANSLATED]",
+                    "description": "[UNTRANSLATED]"
+                }
+            }
+        },
+        "contactUs": {
+            "title": "[UNTRANSLATED]",
+            "subtitle": "[UNTRANSLATED]"
+        }
+    },
+    "Faq": {
+        "badge": "[UNTRANSLATED]",
+        "title": "[UNTRANSLATED]",
+        "title_highlight": "[UNTRANSLATED]",
+        "subtitle": "[UNTRANSLATED]",
+        "cta": {
+            "title": "[UNTRANSLATED]",
+            "subtitle": "[UNTRANSLATED]",
+            "button": "[UNTRANSLATED]"
+        },
+        "items": {
+            "0": {
+                "question": "[UNTRANSLATED]",
+                "answer": "[UNTRANSLATED]"
+            },
+            "1": {
+                "question": "[UNTRANSLATED]",
+                "answer": "[UNTRANSLATED]"
+            },
+            "2": {
+                "question": "[UNTRANSLATED]",
+                "answer": "[UNTRANSLATED]"
+            },
+            "3": {
+                "question": "[UNTRANSLATED]",
+                "answer": "[UNTRANSLATED]"
+            },
+            "4": {
+                "question": "[UNTRANSLATED]",
+                "answer": "[UNTRANSLATED]"
+            },
+            "5": {
+                "question": "[UNTRANSLATED]",
+                "answer": "[UNTRANSLATED]"
+            },
+            "6": {
+                "question": "[UNTRANSLATED]",
+                "answer": "[UNTRANSLATED]"
+            },
+            "7": {
+                "question": "[UNTRANSLATED]",
+                "answer": "[UNTRANSLATED]"
+            }
+        }
+    },
+    "chat": {
+        "welcome": "[UNTRANSLATED]",
+        "listening": "[UNTRANSLATED]",
+        "placeholder": "[UNTRANSLATED]",
+        "quick_actions": "[UNTRANSLATED]",
+        "footer": "[UNTRANSLATED]",
+        "actions": {
+            "scan": {
+                "label": "[UNTRANSLATED]",
+                "description": "[UNTRANSLATED]"
+            },
+            "symptoms": {
+                "label": "[UNTRANSLATED]",
+                "description": "[UNTRANSLATED]"
+            },
+            "pharmacy": {
+                "label": "[UNTRANSLATED]",
+                "description": "[UNTRANSLATED]"
+            }
+        }
+    },
+    "chatbot": {
+        "title": "[UNTRANSLATED]",
+        "status": "[UNTRANSLATED]",
+        "welcome": "[UNTRANSLATED]",
+        "placeholder": "[UNTRANSLATED]"
+    }
+}

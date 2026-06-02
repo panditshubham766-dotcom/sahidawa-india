@@ -30,7 +30,7 @@ export default function ReportInfoPanel() {
             className="w-full bg-(--color-surface-muted) border border-(--color-border-muted) text-(--color-text-primary) placeholder-(--color-text-muted) rounded-2xl px-4 py-3 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 transition-all"
           />
           <button className="absolute right-2 top-2 bottom-2 bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-slate-200 px-3 rounded-xl hover:bg-slate-800 transition-colors flex items-center justify-center">
-            <ChevronRight size={16} />
+            <ChevronRight size={16} className="rtl:rotate-180" />
           </button>
         </div>
       </div>

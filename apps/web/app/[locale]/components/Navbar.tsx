@@ -168,7 +168,7 @@ export default function Navbar() {
 
                     {/* Center — Desktop Nav Links */}
                     <nav
-                        className="ml-6 hidden flex-1 items-center justify-center gap-6 text-sm font-semibold text-(--color-text-secondary) lg:flex"
+                        className="ms-6 hidden flex-1 items-center justify-center gap-6 text-sm font-semibold text-(--color-text-secondary) lg:flex"
                         aria-label="Main navigation"
                     >
                         <Link href="/how-it-works" className={desktopNavLinkClassName}>
@@ -239,7 +239,7 @@ export default function Navbar() {
                                         <Link
                                             href="/login"
                                             onClick={() => setIsMenuOpen(false)}
-                                            className="flex w-full items-center gap-2 rounded-lg bg-emerald-50 px-2.5 py-2 text-left text-xs font-bold text-emerald-700 transition-colors hover:bg-emerald-100 dark:bg-emerald-950/40 dark:text-emerald-400 dark:hover:bg-emerald-950/70"
+                                            className="flex w-full items-center gap-2 rounded-lg bg-emerald-50 px-2.5 py-2 text-start text-xs font-bold text-emerald-700 transition-colors hover:bg-emerald-100 dark:bg-emerald-950/40 dark:text-emerald-400 dark:hover:bg-emerald-950/70"
                                         >
                                             <LogIn size={14} />
                                             <span>{tHome("sign_in")}</span>

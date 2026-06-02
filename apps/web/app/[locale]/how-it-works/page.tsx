@@ -122,7 +122,7 @@ export default function HowItWorksPage() {
                         aria-label="Back to Home"
                         className="absolute top-6 left-6 flex h-12 w-12 items-center justify-center rounded-full border border-(--color-border-muted) bg-(--color-surface-muted) shadow-sm transition-all duration-300 hover:scale-105 hover:bg-(--color-border-muted)"
                     >
-                        <ArrowLeft size={22} className="text-(--color-text-secondary)" />
+                        <ArrowLeft size={22} className="text-(--color-text-secondary) rtl:rotate-180" />
                     </Link>
                     <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-emerald-100 px-5 py-2 text-sm font-medium text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400">
                         <span className="h-2 w-2 rounded-full bg-emerald-500" />

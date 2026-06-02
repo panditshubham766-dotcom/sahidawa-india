@@ -203,7 +203,7 @@ const Icon = {
             fill="none"
             stroke="currentColor"
             strokeWidth="1.8"
-            className="h-3.5 w-3.5 flex-shrink-0"
+            className="h-3.5 w-3.5 flex-shrink-0 rtl:rotate-180"
         >
             {left ? (
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 2L4 7l5 5" />
@@ -272,7 +272,7 @@ function FL({ children, req }: { children: React.ReactNode; req?: boolean }) {
     return (
         <label className="mb-2 block text-sm font-bold text-(--color-text-primary)">
             {children}
-            {req && <span className="ml-1.5 text-emerald-500">*</span>}
+            {req && <span className="ms-1.5 text-emerald-500">*</span>}
         </label>
     );
 }
@@ -338,7 +338,7 @@ function Progress({ current }: { current: number }) {
                     );
                 })}
                 {/* Step label */}
-                <span className="ml-auto self-center text-xs font-semibold whitespace-nowrap text-(--color-text-secondary)">
+                <span className="ms-auto self-center text-xs font-semibold whitespace-nowrap text-(--color-text-secondary)">
                     {current}/{STEPS.length} — {STEPS[current - 1].title}
                 </span>
             </div>
